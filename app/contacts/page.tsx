@@ -7,7 +7,7 @@ function page() {
     // <h1 className="font-quicksand text-3xl font-bold underline sm:bg-blue-medium md:bg-blue-light xl:bg-blue-dark 2xl:bg-white">
     //   This is contacts page
     // </h1>
-    <div className="h-[40rem] w-full rounded-md flex md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
+    <div className="h-screen w-full rounded-md flex md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
       <Spotlight
         className="-top-40 left-0 md:left-60 md:-top-20"
         fill="white"
