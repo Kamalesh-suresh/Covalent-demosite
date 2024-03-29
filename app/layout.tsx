@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Quicksand } from "next/font/google";
 import "./globals.css";
+import Navbar from "./components/ui/navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,7 +23,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${quicksand.variable}`}>
-      <body>{children}</body>
+      <body className="bg-blue-dark">
+        <Navbar className="top-4" />
+        {children}
+      </body>
     </html>
   );
 }
